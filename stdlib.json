@@ -1,0 +1,34 @@
+{
+  "name": "azapie/mikey",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/discord/command/ping.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "ping"
+      }
+    },
+    "functions/events/discord/command/links.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "links"
+      }
+    },
+    "functions/events/discord/message/create.js": {
+      "name": "discord.message.create"
+    },
+    "functions/events/discord/command/status.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "status"
+      }
+    },
+    "functions/events/discord/command/clearstatus.js": {
+      "name": "discord.command",
+      "subtype": {
+        "command": "clearstatus"
+      }
+    }
+  }
+}
